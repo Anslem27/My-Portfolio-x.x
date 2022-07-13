@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import drinkUpProject from "../assets/img/drink_up.png";
+import noterProject from "../assets/img/notes_gif.gif";
+import nestProject from "../assets/img/nest_gif.gif";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -12,24 +12,21 @@ export const Projects = () => {
   //project list
   const projects = [
     {
-      //TODO: Add linked Image to drink up project
       title: "Drink Up",
       description: "Minimal Material You Designed App",
-      imgUrl: projImg1,
+      imgUrl: drinkUpProject,
     },
 
-    //TODO: Add linked Image to noter project
     {
       title: "Noter",
       description: "Minimal Design note taking App",
-      imgUrl: projImg2,
+      imgUrl: noterProject,
     },
 
-    //TODO: Add linked Image to nest page
     {
       title: "Nest Student App",
       description: "All in one student app",
-      imgUrl: projImg3,
+      imgUrl: nestProject,
     },
 
   ];

@@ -208,7 +208,7 @@ span.navbar-text {
   color: #121212;
 }
 
-/* TODO  top-connect-button*/
+
 .navbar-text button:hover::before {
   content: "";
   width: 100%;
@@ -269,11 +269,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
+
+/* var myArray = [
+  "Apples",
+  "Bananas",
+  "Pears"
+];
+
+var randomItem = myArray[Math.floor(Math.random()*myArray.length)]; */
+
 /************ Banner Css ************/
+
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  background-image: url('./assets/img/space1.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
