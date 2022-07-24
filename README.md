@@ -2,7 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="screenshots/show_off.png">
+# Switch assets from within `assets/img` folders
+
+## For differnent versions switch branches
+
+<img width="1266" alt="Screen Shot 1" src="screenshots/show_off.png">
+<img width="1266" alt="Screen Shot 2" src="screenshots/show_off1.png">
 
 Built using:
 
@@ -14,9 +19,9 @@ In the /personal-portfolio, you can run:
 
 ## Set Up environment
 
-### `npm install`
+### `npm install` get dependencies
 
-### `npm start`
+### `npm start` run webApp
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
