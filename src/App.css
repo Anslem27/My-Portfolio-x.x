@@ -270,20 +270,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
-/* var myArray = [
-  "Apples",
-  "Bananas",
-  "Pears"
+/* var spaceImages = [
+  './assets/img/space1.jpg',
+  './assets/img/space2.jpg',
+  './assets/img/space3.jpg'
 ];
 
-var randomItem = myArray[Math.floor(Math.random()*myArray.length)]; */
+var randomItem = myArray[Math.floor(Math.random()*spaceImages.length)]; */
 
-/************ Banner Css ************/
-
+/* banner background */
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/space1.jpg');
+  background-image: url('./assets/img/space3.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -455,6 +454,12 @@ var randomItem = myArray[Math.floor(Math.random()*myArray.length)]; */
   transition: 0.3s ease-in-out;
   text-align: center;
   z-index: 0;
+}
+
+.project .nav.nav-pills .github-icon {
+  color: #AA367C;
+  border-radius: 20px;
+
 }
 
 .project .nav.nav-pills .nav-link::before {

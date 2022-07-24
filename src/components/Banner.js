@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/astrox.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -60,15 +60,16 @@ export const Banner = () => {
                   <p>Feel free to snoop around on my SOCIAL MEDIA.
                     For inquiries or a pat on the back CONTACT ME,
                     I will be happy to hear from you.
-                    I have unique services you might be interested in.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                    I have unique services you might be interested in.
+                  </p>
+                  <button onClick={() => console.log('connect')}>CheckOut C.V <ArrowRightCircle size={25} /></button>
                 </div>}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                <div className={isVisible ? "animate__animated animate__float" : ""}>
                   <img src={headerImg} alt="Header Img" />
                 </div>}
             </TrackVisibility>

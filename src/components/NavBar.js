@@ -45,7 +45,6 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-
               <a href="#"><img src={github} alt="Icon" /></a>
               <a href="#"><img src={twitter} alt="Icon" /></a>
             </div>
